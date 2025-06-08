@@ -134,3 +134,33 @@ footer {
   height: auto;
   border-radius: 6px;
 }
+.contact-info, .employee-profiles, .contact-form {
+  margin: 2rem auto;
+  max-width: 800px;
+  padding: 1rem;
+}
+
+.employee-profiles figure {
+  display: inline-block;
+  margin: 1rem;
+  text-align: center;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+button[type="submit"] {
+  background-color: #2a9df4;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
